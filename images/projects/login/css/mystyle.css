@@ -1,0 +1,13 @@
+.bd{
+    min-height: 1vh;
+    background: linear-gradient(180deg,rgba(0, 0, 0, 0.616),rgba(0, 0, 0, 0.616)),url(../images/register.jpg) no-repeat ;
+    background-size: cover;
+    padding:45px 0px ;
+}
+form{
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}

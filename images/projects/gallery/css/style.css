@@ -1,0 +1,32 @@
+.desc-gallery{
+    padding: 10px;
+    width: 80%;
+    background-color:white;
+    bottom: 5%;
+    left: 10%;
+    box-sizing: border-box;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+
+#light-box{
+    background-color: rgba(0, 0, 0, 0.5);
+    display: none;
+}
+
+#light-box img{
+    height: 80%;
+}
+.fa-window-close{
+    top:13%;
+    right:32%;
+}
+.fa-arrow-right{
+    right: 32%;
+}
+.fa-arrow-left{
+    left: 32%;
+}

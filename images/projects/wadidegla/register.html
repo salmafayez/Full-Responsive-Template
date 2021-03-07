@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register</title>
+    <link rel="icon" href="images/logo.png">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/form.css">
+</head>
+<body>
+    <header>  <!-- Header -->
+        <div class="container">
+            <div class="logo">
+                <img src="images/logo.png" alt="Wadi Degla Club">
+            </div>
+            <nav>
+                <ul>
+                    <li> <a href="index.html">Home</a> </li>
+                    <li> <a href="#about_us">About us</a> </li>
+                    <li> <a href="#academy">Academy</a></li>
+                    <li> <a href="#" target="_blank">Register</a></li>
+                </ul>
+            </nav>
+            <div class="clear"></div>
+        </div>
+    </header>  <!-- End of the Header -->
+
+    <main>
+        <section class="home">  <!-- Home Section-->
+            <div class="home_content">
+            </div>
+            <div class="search">
+                <input type="text">
+                <img src="images/iconfinder_search_326690.png" alt="search icon">
+            </div>
+        </section> <!-- End of Home Section -->
+
+
+        <section>  <!-- Form section-->
+            <div class="container">
+                <h2>Register</h2>
+                <hr>
+                <p>Please fill in this form to create account</p>
+                <form>
+                    <label class="margin_bottom">Email:</label>
+                    <input type="email" class="right margin_bottom"><br>
+
+                    <label class="margin_bottom">Password:</label>
+                    <input type="password" class="right margin_bottom"><br>
+
+                    <label class="margin_bottom">Repeat password:</label>
+                    <input type="password" class="right margin_bottom"><br>
+
+                    <label class="margin_bottom">Comment:</label>
+                    <textarea cols="25" rows="3" class="right margin_bottom"></textarea><br><br><br>
+
+                    <label class="margin_bottom">Select your city:</label>
+                    <select class="right margin_bottom">
+                        <option selected hidden>Select your city</option>
+                        <option>Cairo</option>
+                        <option>Giza</option>
+                        <option>Alex</option>
+                        <option>Tanta</option>
+                    </select><br>
+
+                    <label class="margin_bottom"> Hoppies:</label>
+                    <div class="right">
+                        <input type="checkbox">Swimming<br>
+                        <input type="checkbox">Reading<br>
+                        <input type="checkbox">Watching<br>
+                        <input type="checkbox">Writing<br>
+                    </div><br><br><br><br>
+                    <label class="margin_bottom">Your color:</label>
+                    <input type="color" class="right margin_bottom"><br>
+
+                    <label class="margin_bottom">Upload your image:</label>
+                    <div class="right">
+                        <input type="file">
+                    </div>
+                    <div>
+                        <input type="reset" class="margin_bottom">
+                        <input type="submit" class="margin_bottom">
+                    </div>
+                </form>
+            </div>
+        </section>  <!-- End of form section-->
+
+        <section id="location_section">  <!-- Location section-->
+            <div class="location_content">
+                <map>
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d3452.772079728!2d31.021880000000003!3d30.072066999999997!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14585b977a5c432f%3A0x2e5d742b25405395!2sNational%20Telecommunication%20Institute!5e0!3m2!1sen!2seg!4v1612651936506!5m2!1sen!2seg" width="100%" height="500px" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+                </map>
+            </div>
+        </section>  <!-- End of location section-->
+    </main>
+
+    <footer>
+        <div> Copyright &copy; 2020 Wadi Degla Club. All rights reserved | Salma Fayez Himida</div>
+    </footer>
+</body>
+</html>

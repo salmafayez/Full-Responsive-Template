@@ -1,0 +1,32 @@
+
+p{
+    text-align: center;
+    font-size: 1.3rem;
+    font-weight: 300;
+}
+form{
+    width: 50%;
+    padding: 20px;
+    position: relative;
+    margin: auto;
+    margin-top: 20px;
+}
+label{
+    margin-right: 100px;
+}
+.right{
+    position: absolute;
+    right: 0;
+    display: inline-block;
+}
+.margin_bottom{
+    margin-bottom: 10px;
+    display: inline-block;
+}
+form div{
+    width: 30%;
+    margin: auto;
+}
+input[type="checkbox"]{
+    margin-right: 10px;
+}

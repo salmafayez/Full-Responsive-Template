@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Crud Project</title>
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <section class="container p-5 bg-light">
+        <h1 class="text-center text-primary mb-5">Adding Products</h1>
+        <div class="col-8 mx-auto ">
+            <div class="form-group mb-3">
+                <label class="mb-1 text-secondary">Product Name:</label>
+                <input type="text" class="form-control" id="nameInput">
+            </div>
+            <div class="form-group mb-3">
+                <label class="mb-1 text-secondary">Product Price:</label>
+                <input type="text" class="form-control" id="priceInput">
+            </div>
+            <div class="form-group mb-3">
+                <label class="mb-1 text-secondary">Product Model:</label>
+                <input type="text" class="form-control" id="modelInput">
+            </div>
+            <div class="form-group mb-3">
+                <label class="mb-1 text-secondary">Product Description:</label>
+                <input type="text" class="form-control" id="descriptionInput">
+            </div>
+            <div class="text-center">
+                <button class="btn btn-primary" onclick="addProduct()">add product</button>
+            </div>
+        </div>
+    </section>
+
+    <section class="container p-5 ">
+        <h1 class="text-center text-primary mb-5">Products</h1>
+        <input class="form-control col-6 mx-auto my-3" onkeyup="searchProducts(this.value)">
+        <div class="row" id="products-row">
+        </div>
+        <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title" id="exampleModalLabel">Update product</h5>
+                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body col-10 mx-auto">
+                    <div class="form-group mb-3">
+                        <label class="mb-1 text-secondary">Product Name:</label>
+                        <input type="text" class="form-control" id="nameInputUpdate">
+                    </div>
+                    <div class="form-group mb-3">
+                        <label class="mb-1 text-secondary">Product Price:</label>
+                        <input type="text" class="form-control" id="priceInputUpdate">
+                    </div>
+                    <div class="form-group mb-3">
+                        <label class="mb-1 text-secondary">Product Model:</label>
+                        <input type="text" class="form-control" id="modelInputUpdate">
+                    </div>
+                    <div class="form-group mb-3">
+                        <label class="mb-1 text-secondary">Product Description:</label>
+                        <input type="text" class="form-control" id="descriptionInputUpdate">
+                    </div>
+                    <input id="index-container" type="hidden">
+                </div>
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-primary" onclick="update()" data-bs-dismiss="modal">Update</button>
+                </div>
+              </div>
+            </div>
+        </div>
+    </section>
+
+
+    <script src="js/bootstrap.bundle.js"></script>
+    <script src="js/index_js.js"></script>
+</body>
+</html>
